@@ -1,0 +1,69 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id='heading'>Rock, Paper, Scissors!</h1>
+    <hr>
+
+  <div class='container'>
+    <div class='row'> <!-- row 1-->
+      <div id='yourSelection' class='col'>
+        <h1 id="title">You: <span id='youSelected'></span></h1>
+      </div> <!--end of first column -->
+
+      <div id='computerSelection' class='col'>
+        <h1>Computer: <span id='computerSelected'></span></h1>
+      </div> <!-- end of second column -->
+
+    </div> <!-- end of row 1 -->
+        
+    <div class='row'><!-- row 2-->
+      <div class='col'>
+        <div id='imageChoices'>
+          <img id='rock' class='choices' src='images/rock.jpeg'><img id='paper' class='choices' src='images/paper.jpg'><img id='scissors' class='choices' src='images/scissors.jpg'>
+        </div>
+        <div id="roll">
+            <button id="play">GO!</button>
+        </div>
+      </div> <!-- end of column 1 -->
+      
+      <div class='col'>
+        <div id='computerChoice'>
+          <!-- computer selection here -->
+          </div>
+      </div>
+    </div> <!-- end of row 2 -->
+
+    <div class='row'><!-- row 3 -->
+      <div class='col'>
+        <div id='score'>
+          <p>Wins: <span id='wins'></span></p>
+          <p>Losses: <span id='losses'></span></p>
+          <p>Push: <span id='push'></span></p>
+        </div>
+      </div> <!-- end of column 1 -->
+
+      <div class='col'>
+          <div id='result'>
+            <!-- Result message here -->
+          </div>
+          <div>
+              <button id='playAgain'>Play Again</button>
+          </div>
+      </div>
+    </div> <!-- end of row 3 -->
+      
+    </div> <!--end of container-->
+  
+  
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+  <script src='main.js'></script>
+  </body>
+</html>

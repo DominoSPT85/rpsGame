@@ -1,0 +1,36 @@
+
+
+#heading {
+  text-align: center;
+}
+
+.choices {
+  cursor: grab;
+  width: 200px;
+}
+
+.choices.inactive{
+  display: none;
+}
+
+.choices.active {
+  border: 3px solid black;
+}
+
+.choices.clear {
+  border: 2px solid white;
+}
+
+#result.win {
+  color: green;
+
+}
+
+#result.lose {
+  color: red;
+}
+
+#result.push {
+  color: black;
+
+}
